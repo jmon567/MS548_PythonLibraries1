@@ -103,7 +103,7 @@ def noun_phrase_extraction():
 def word_definitions():
     """
     Provide definitions for words in a user-provided text.
-    
+    """
     text = input("Enter a text to get word definitions: ")
     dictionary = PyDictionary()
     words = text.split()
@@ -114,7 +114,7 @@ def word_definitions():
             print(f"{word}: {definition}")
         else:
             print(f"{word}: No definition found")
-    """
+    
     print("This function is not available at this time.")
     go_back_to_menu()
 
